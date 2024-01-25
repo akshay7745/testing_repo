@@ -34,6 +34,7 @@ function getList(users){
     })
 }
 
+
 ul.addEventListener("click",(e)=>{
     if(e.target.classList.contains("dltBtn")){
   let elementId = e.target.parentElement.getAttribute("id");
